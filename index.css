@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'smythe';
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid gold;
+    box-sizing: border-box;
+}
+
+header {
+    height: 167px;
+    box-sizing: border-box;
+    background: url(./images/header-img.avif);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'smythe';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 46px;
+}
+
+#items {
+    width: 508px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d2d2d2;
+    margin: 67px 46px 0;
+    padding: 0 0 46px 0;
+    box-sizing: border-box;
+}
+
+.first-part {
+}
+
+.item {
+    display: flex;
+}
+
+.your-order {
+    padding: 46px;
+    display: none;
+}
+
+.your-order-total {
+    padding: 0 46px;
+    display: none;
+    border-top: 1px solid #393333;
+}
+
+.orders,
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-img,
+#add-div {
+    width: 10%;
+}
+
+#order-details {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#order-details h2,
+#order-details h3 {
+    color: #000000;
+}
+
+#order-details p {
+    color: #888888;
+}
+
+header h1,
+header h3 {
+    margin: 0;
+}
+
+header h1 {
+    font-size: 39px;
+    line-height: 24px;
+}
+header h3 {
+    font-size: 22.42px;
+    line-height: 13.8px;
+}
+
+#logo-img p {
+    margin: 0;
+    font-size: 78.72px;
+    line-height: 98.4px;
+    letter-spacing: -2%;
+    word-spacing: 78.72px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.add-btn {
+    color: #3c3c3c;
+    background: white;
+    border: 1px solid #dedede;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.remove-btn {
+    background: white;
+    border: none;
+    margin: 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #bbbbbb;
+}
+
+.pay-btn {
+    background: #16db99;
+    color: white;
+    border: none;
+    border-radius: 3.89px;
+    width: 100%;
+    height: 71.3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 31.1px;
+    margin-top: 25px;
+}
+
+#complete-order-btn {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: #ffffff;
+    background: #16db99;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    border-radius: 3px;
+}
+
+.your-order-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.payment-modal{
+    display: none;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 40px 24.5px;
+    width: 600px;
+    height: 524px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: white;
+    text-align: center;
+}
+
+.thank-you {
+    width: 504px;
+    background: #ecfdf5;
+    margin: 40px auto;
+    text-align: center;
+    padding: 40px 0;
+    border: none;
+    border-radius: 3px;
+    color: #065F46;
+    display: none;
+    font-weight: normal;
+}
+
+.orders h2,
+.total h2 {
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.item-price {
+    font-size: 20px;
+}
+
+.item-name {
+    font-size: 28px;
+}
+
+.module-header {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    line-height: 31.1px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    height: 71.3px;
+    margin: 0px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #757575;
+    border: 1px solid #757575;
+    border-radius: 3.89px;
+    padding: 0  25px;
+    margin: 10px 0;
+}
